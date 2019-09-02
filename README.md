@@ -30,6 +30,16 @@ Install all the Python dependencies:
 (venv) $ pip install -r requirements.txt
 ```
 
+Install NLTK packages
+
+```
+python -m nltk.downloader stopwords
+python -m nltk.downloader rslp
+python -m nltk.downloader punkt
+python -m nltk.downloader machado
+python -m nltk.downloader mac_morpho
+```
+
 To work with Portuguese language using spaCy, we need to install the multi-task model called `pt_core_news_sm`. This model was trained on the Universal Dependencies and WikiNER corpus. The model has POS tags, dependency parse and named entities. Supports identification of PER, LOC, ORG and MISC entities.
 
 ```
