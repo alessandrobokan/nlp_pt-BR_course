@@ -6,13 +6,19 @@ NLP for Brazilian Portuguese. For this course we will learn NLP techniques using
 
 You must have installed Python 3.5+ and `pip`.
 
-Create a `virtualenv` dir to install all the project dependencies. Then, activate the environment.
+First of all, we need to install `virtualenv`. Basically, virtualenv is a tool to create isolated Python environments.
+
+```
+$ pip install virtualenv
+```
+
+Create a `virtualenv` dir to install all the project dependencies.
 
 ```
 $ virtualenv -p python3 venvvirtual venv  
 ```
 
-Then, activate the environment. You'll a `(venv)` at the beginning of the promp:
+Then, activate the environment. You'll see a `(venv)` at the beginning of the promp:
 
 ```
 $ source venv/bin/activate
