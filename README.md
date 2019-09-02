@@ -27,7 +27,7 @@ $ source venv/bin/activate
 Install all the Python dependencies:
 
 ```
-(venv) $ pip install -r requeriments
+(venv) $ pip install -r requirements.txt
 ```
 
 To work with Portuguese language using spaCy, we need to install the multi-task model called `pt_core_news_sm`. This model was trained on the Universal Dependencies and WikiNER corpus. The model has POS tags, dependency parse and named entities. Supports identification of PER, LOC, ORG and MISC entities.
