@@ -36,4 +36,11 @@ To work with Portuguese language using spaCy, we need to install the multi-task 
 (venv) $ python -m spacy download pt_core_news_sm
 ```
 
+Finally, we need to configure our environment inside jupyter notebook.
+
+```
+python -m ipykernel install --user --name=venv
+```
+
 That's all! See the wiki to see the NLP course using NLTK and spaCy.
+
