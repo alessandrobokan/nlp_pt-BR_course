@@ -58,5 +58,5 @@ If Jupyter doesn't **recognize** your environment, please run the following comm
 (venv) $ python -m ipykernel install --user --name=venv
 ```
 
-That's all! See the wiki to see the NLP course using NLTK and spaCy.
+That's all! You will find the courses (NLTK and spaCy) inside `notebooks` dir and the presentation in `docs` dir.
 
