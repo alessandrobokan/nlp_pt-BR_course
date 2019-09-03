@@ -4,7 +4,7 @@ NLP for Brazilian Portuguese. In this course we will learn useful NLP techniques
 
 ## Installing project dependencies
 
-You must have installed `Python 3.5+` and `pip`.
+You must have installed `Python 3.6+` and `pip`.
 
 First of all, we need to install `virtualenv`. Basically, `virtualenv` is a tool to create isolated Python environments.
 
