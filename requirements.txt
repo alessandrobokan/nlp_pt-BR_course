@@ -11,7 +11,7 @@ numpy==1.17.1
 requests==2.22.0
 six==1.12.0
 spacy==2.1.8
-urllib3==1.25.8
+urllib3==1.26.5
 joblib==0.13.2
 nltk==3.4.5
 pandas==0.25.1
